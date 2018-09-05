@@ -54,6 +54,10 @@ class Life extends Component {
         console.log('7. after update')
     }
 
+    converter(){
+        
+    }
+
 }
 
 export default Life
