@@ -11,16 +11,17 @@ const Header = () => {
 			<h1>Header</h1>
 			<hr />
 			<div>
-				
+				<p>REACT_APP_SECRET_CODE: {process.env.REACT_APP_SECRET_CODE} - {process.env.NODE_ENV}</p>
+				<hr/>
 				<Link to="/">Home (Link)</Link>&nbsp;&nbsp;&nbsp;
 				<Link to="/posts">Posts (Link)</Link>&nbsp;&nbsp;&nbsp;
 				<Link to="/life">Life (Link)</Link>&nbsp;&nbsp;&nbsp;
 				<Link to="/profile">Profile (Link)</Link>&nbsp;&nbsp;&nbsp;
 				<Link to={{ 
 					pathname:'/profile',  
-					hash:'#francis'   ,
+					hash:'#francis',
 					search:'?profile=true'   
-				}}>Profile Search (Link)</Link>&nbsp;
+				}}>Profile Search (xLink)</Link>&nbsp;
 
 				&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;
 				
