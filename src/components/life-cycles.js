@@ -54,9 +54,10 @@ class Life extends Component {
         console.log('7. after update')
     }
 
-    converter(){
-        
-    }
+    // 8. este metodo sera chamado o componente for ser removido do DOM...
+    componentWillUnmount(){
+        console.log('8. remocao do componente do DOM')    
+    }    
 
 }
 
