@@ -59,6 +59,10 @@ class Life extends Component {
         console.log('8. remocao do componente do DOM')    
     }    
 
+    const calcularDobro = (props) => {
+        const { salario } = props
+        console.log(salario * 2)
+    }        
 }
 
 export default Life
